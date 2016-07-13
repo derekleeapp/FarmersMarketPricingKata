@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52ABC03F1D364808001FAFFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ABC03E1D364808001FAFFA /* AppDelegate.swift */; };
+		52ABC0411D364808001FAFFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ABC0401D364808001FAFFA /* ViewController.swift */; };
+		52ABC0441D364808001FAFFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52ABC0421D364808001FAFFA /* Main.storyboard */; };
+		52ABC0461D364808001FAFFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52ABC0451D364808001FAFFA /* Assets.xcassets */; };
+		52ABC0491D364808001FAFFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52ABC0471D364808001FAFFA /* LaunchScreen.storyboard */; };
+		52ABC0541D364808001FAFFA /* FarmersMarketPricingKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ABC0531D364808001FAFFA /* FarmersMarketPricingKataTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52ABC0501D364808001FAFFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52ABC0331D364808001FAFFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52ABC03A1D364808001FAFFA;
+			remoteInfo = FarmersMarketPricingKata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52ABC03B1D364808001FAFFA /* FarmersMarketPricingKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FarmersMarketPricingKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52ABC03E1D364808001FAFFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52ABC0401D364808001FAFFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52ABC0431D364808001FAFFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52ABC0451D364808001FAFFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52ABC0481D364808001FAFFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52ABC04A1D364808001FAFFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52ABC04F1D364808001FAFFA /* FarmersMarketPricingKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FarmersMarketPricingKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52ABC0531D364808001FAFFA /* FarmersMarketPricingKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmersMarketPricingKataTests.swift; sourceTree = "<group>"; };
+		52ABC0551D364809001FAFFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52ABC0381D364808001FAFFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ABC04C1D364808001FAFFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52ABC0321D364808001FAFFA = {
+			isa = PBXGroup;
+			children = (
+				52ABC03D1D364808001FAFFA /* FarmersMarketPricingKata */,
+				52ABC0521D364808001FAFFA /* FarmersMarketPricingKataTests */,
+				52ABC03C1D364808001FAFFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52ABC03C1D364808001FAFFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52ABC03B1D364808001FAFFA /* FarmersMarketPricingKata.app */,
+				52ABC04F1D364808001FAFFA /* FarmersMarketPricingKataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52ABC03D1D364808001FAFFA /* FarmersMarketPricingKata */ = {
+			isa = PBXGroup;
+			children = (
+				52ABC03E1D364808001FAFFA /* AppDelegate.swift */,
+				52ABC0401D364808001FAFFA /* ViewController.swift */,
+				52ABC0421D364808001FAFFA /* Main.storyboard */,
+				52ABC0451D364808001FAFFA /* Assets.xcassets */,
+				52ABC0471D364808001FAFFA /* LaunchScreen.storyboard */,
+				52ABC04A1D364808001FAFFA /* Info.plist */,
+			);
+			path = FarmersMarketPricingKata;
+			sourceTree = "<group>";
+		};
+		52ABC0521D364808001FAFFA /* FarmersMarketPricingKataTests */ = {
+			isa = PBXGroup;
+			children = (
+				52ABC0531D364808001FAFFA /* FarmersMarketPricingKataTests.swift */,
+				52ABC0551D364809001FAFFA /* Info.plist */,
+			);
+			path = FarmersMarketPricingKataTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52ABC03A1D364808001FAFFA /* FarmersMarketPricingKata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52ABC0581D364809001FAFFA /* Build configuration list for PBXNativeTarget "FarmersMarketPricingKata" */;
+			buildPhases = (
+				52ABC0371D364808001FAFFA /* Sources */,
+				52ABC0381D364808001FAFFA /* Frameworks */,
+				52ABC0391D364808001FAFFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FarmersMarketPricingKata;
+			productName = FarmersMarketPricingKata;
+			productReference = 52ABC03B1D364808001FAFFA /* FarmersMarketPricingKata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52ABC04E1D364808001FAFFA /* FarmersMarketPricingKataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52ABC05B1D364809001FAFFA /* Build configuration list for PBXNativeTarget "FarmersMarketPricingKataTests" */;
+			buildPhases = (
+				52ABC04B1D364808001FAFFA /* Sources */,
+				52ABC04C1D364808001FAFFA /* Frameworks */,
+				52ABC04D1D364808001FAFFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52ABC0511D364808001FAFFA /* PBXTargetDependency */,
+			);
+			name = FarmersMarketPricingKataTests;
+			productName = FarmersMarketPricingKataTests;
+			productReference = 52ABC04F1D364808001FAFFA /* FarmersMarketPricingKataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52ABC0331D364808001FAFFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sun Rising App Dev";
+				TargetAttributes = {
+					52ABC03A1D364808001FAFFA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					52ABC04E1D364808001FAFFA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 52ABC03A1D364808001FAFFA;
+					};
+				};
+			};
+			buildConfigurationList = 52ABC0361D364808001FAFFA /* Build configuration list for PBXProject "FarmersMarketPricingKata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52ABC0321D364808001FAFFA;
+			productRefGroup = 52ABC03C1D364808001FAFFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52ABC03A1D364808001FAFFA /* FarmersMarketPricingKata */,
+				52ABC04E1D364808001FAFFA /* FarmersMarketPricingKataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52ABC0391D364808001FAFFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ABC0491D364808001FAFFA /* LaunchScreen.storyboard in Resources */,
+				52ABC0461D364808001FAFFA /* Assets.xcassets in Resources */,
+				52ABC0441D364808001FAFFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ABC04D1D364808001FAFFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52ABC0371D364808001FAFFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ABC0411D364808001FAFFA /* ViewController.swift in Sources */,
+				52ABC03F1D364808001FAFFA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ABC04B1D364808001FAFFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ABC0541D364808001FAFFA /* FarmersMarketPricingKataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52ABC0511D364808001FAFFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52ABC03A1D364808001FAFFA /* FarmersMarketPricingKata */;
+			targetProxy = 52ABC0501D364808001FAFFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52ABC0421D364808001FAFFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52ABC0431D364808001FAFFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52ABC0471D364808001FAFFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52ABC0481D364808001FAFFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52ABC0561D364809001FAFFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52ABC0571D364809001FAFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52ABC0591D364809001FAFFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FarmersMarketPricingKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunrisingappdev.FarmersMarketPricingKata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52ABC05A1D364809001FAFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FarmersMarketPricingKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunrisingappdev.FarmersMarketPricingKata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52ABC05C1D364809001FAFFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FarmersMarketPricingKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunrisingappdev.FarmersMarketPricingKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FarmersMarketPricingKata.app/FarmersMarketPricingKata";
+			};
+			name = Debug;
+		};
+		52ABC05D1D364809001FAFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FarmersMarketPricingKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunrisingappdev.FarmersMarketPricingKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FarmersMarketPricingKata.app/FarmersMarketPricingKata";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52ABC0361D364808001FAFFA /* Build configuration list for PBXProject "FarmersMarketPricingKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52ABC0561D364809001FAFFA /* Debug */,
+				52ABC0571D364809001FAFFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52ABC0581D364809001FAFFA /* Build configuration list for PBXNativeTarget "FarmersMarketPricingKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52ABC0591D364809001FAFFA /* Debug */,
+				52ABC05A1D364809001FAFFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52ABC05B1D364809001FAFFA /* Build configuration list for PBXNativeTarget "FarmersMarketPricingKataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52ABC05C1D364809001FAFFA /* Debug */,
+				52ABC05D1D364809001FAFFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52ABC0331D364808001FAFFA /* Project object */;
+}
